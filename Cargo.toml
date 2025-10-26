@@ -1,0 +1,6 @@
+[package]
+name = "algox"
+version = "0.1.2"
+edition = "2024"
+
+[dependencies]
