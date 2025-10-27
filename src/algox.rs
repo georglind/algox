@@ -357,6 +357,10 @@ impl IterativeSolver {
         }
     }
 
+    pub fn row(&self, row: usize) -> Vec<usize> {
+        self.matrix.row(row)
+    }
+
     pub fn next(&mut self) -> Option<Vec<usize>> {
         loop {
             self.step = self._step(self.step.clone());
